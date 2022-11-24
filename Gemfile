@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
+ruby "2.7.4"
+
 gem "sinatra", "~> 2.1"
 
 # A fast and simple web server
