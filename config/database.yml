@@ -5,12 +5,12 @@ default: &default
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  database: db/development
 
 test:
   <<: *default
-  database: db/test.sqlite3
+  database: db/test
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: db/production
