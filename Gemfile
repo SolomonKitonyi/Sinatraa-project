@@ -4,7 +4,8 @@ source "https://rubygems.org"
 # https://github.com/sinatra/sinatra
 ruby "2.7.4"
 
-gem "sinatra", "~> 2.1"
+# gem "sinatra", "~> 2.1"
+gem 'sinatra-activerecord', '~> 2.0', '>= 2.0.26'
 
 # A fast and simple web server
 # https://github.com/macournoyer/thin
