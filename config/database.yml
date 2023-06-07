@@ -13,7 +13,7 @@ test:
 
 production:
   adapter: postgresql
-  database: postgresql://postgres:pJDO40zH7QPpNlE1wtoJ@containers-us-west-125.railway.app:6193/railway
+  database: railway
   username: postgres
   password: pJDO40zH7QPpNlE1wtoJ
   host: containers-us-west-125.railway.app
