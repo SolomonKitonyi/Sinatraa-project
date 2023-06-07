@@ -57,6 +57,6 @@ group :test do
 end
 
 group :production do
-  gem 'puma', '~> 6.1', '>= 6.1.1'
-  gem 'pg', '~> 1.4', '>= 1.4.6'
+  gem 'puma', '~> 6.1'
+  gem 'pg', '~> 1.4'
 end
